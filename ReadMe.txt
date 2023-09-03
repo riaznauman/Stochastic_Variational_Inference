@@ -6,7 +6,7 @@ Root (This is any folder on the computer to be considered as root folder in whic
      ---Raw_Data (This folder contains .mat files of datasets downloaded from their locations)
      ---Processed_Data (This folder contains processed data to be used in our code)
  Data_Pre_Processing.py (This file contains the code for pre-processing the Raw Data. The processed data is saved in Processed_Data folder)
- SVI.py (This folder is the code file for dictionary and classifier learning)
+ SVI.py (This file is the code file for dictionary and classifier learning)
 How to setup and run the code?
 1--Download hyperspectral images along with ground truths available at (https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes#Pavia_Centre_and_University) and place them in the folder "Raw_Data". 
    Pavia University Image:-> Download the image (PaviaU.mat) from (https://www.ehu.eus/ccwintco/uploads/e/ee/PaviaU.mat) and download the ground truth (PaviaU_gt.mat) from (https://www.ehu.eus/ccwintco/uploads/5/50/PaviaU_gt.mat)
