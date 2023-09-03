@@ -794,7 +794,8 @@ def SVI(loadedDB, batchsize,patchLength, DBdisc,dicSize,iiii,training_samples, t
 # 5---Our algorithm performs sampling of parameters while iterating through atoms one by one in each of the main iterations.
 #     We have designed and vetorized the code in such a way that we can treat atoms in groups that reduces the number of iterations at atoms level. We have named this variable as "batchsize" in the code.
 #     We treat all atoms as one group and vectorization updates atoms in one iteration at atoms update stage.
-Code_DPath="./HyperSpectral_Classification/IEEE_ACCESS/"
+#Code_DPath="./HyperSpectral_Classification/IEEE_ACCESS/"
+Code_DPath="./"
 f=0
 while f<3:
     f=f+1

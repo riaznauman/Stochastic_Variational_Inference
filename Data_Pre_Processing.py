@@ -5,7 +5,8 @@ import random
 import scipy
 import scipy.io as sio
 def readData(dataFileName,dictFileName, gt_fileName, dict_gt_fileName, savedFileName, numClasses,Code_DPath="./Hyperspectral_Classification/IEEE_ACCESS/"):
-    Code_DPath="/HyperSpectral_Classification/IEEE_ACCESS/"
+    #Code_DPath="/HyperSpectral_Classification/IEEE_ACCESS/"
+    Code_DPath="/"
     cwd = os.getcwd()
     path = cwd + Code_DPath + "Data/Raw_Data/" + dataFileName + ".mat"
     mat=scipy.io.loadmat(path)
